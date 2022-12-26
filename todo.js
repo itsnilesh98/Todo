@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", (e) => {
     e.preventDefault(); // Prevent form submission
     const todoText = input.value.trim().toUpperCase();
-    if (todoText === "") return; // Don't add empty todos
+    if (todoText === "") return;
 
     // Create new list item
     const li = document.createElement("li");
