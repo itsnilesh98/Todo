@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+   padding-top: 20px;
+    min-height: 40vh;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    position: relative;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+   margin: 20px;
+   padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-items li
+{
+    list-style: none;
+}
+.headline{
+        position: absolute;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.btn{   
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.btn-headline{
+    background-color:#59d3c9;
+    color: whitesmoke;
+    margin-top: 1rem;
+    padding: 1rem ;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+.btn-headline:hover{
+    background-color:#47afa6;
+    transition: 0.5s;
+    color: black;
+
+}
+.section-todo{
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-todo{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+   
+    
+   
+}
+.section-todo h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.input-1{
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-2{
+color: whitesmoke;
+width: 20%;
+cursor: pointer;
+border-radius: 4px;
+background-color: #59d3c9;
+font-size: 1rem;
+
+}
+
+.input-2:hover{
+    background-color: #47afa6;
+    color: black;
+    transition: 0.5s;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+.todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.todo-list button {
+    background-color: #59d3c9;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.todo-list button:hover{
+    background-color: #47afa6;
+    transition: 0.5s;
+    color: black;
+}
+.todo-list div{
+    display: flex;
+    gap: 4px;
+}
